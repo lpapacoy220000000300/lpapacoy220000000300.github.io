@@ -14,29 +14,6 @@
   position: relative;
 }
 
-.frame .overlap {
-  position: absolute;
-  width: 227px;
-  height: 1345px;
-  top: 0;
-  left: 0;
-  background-image: url(./img/rectangle-1.svg);
-  background-size: 100% 100%;
-}
-
-.frame .financial-tracker {
-  position: absolute;
-  width: 178px;
-  top: 24px;
-  left: 25px;
-  font-family: "Red Rose-Bold", Helvetica;
-  font-weight: 700;
-  color: #1426c0;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .frame .add-income {
   position: absolute;
   width: 245px;
@@ -174,7 +151,7 @@
   white-space: nowrap;
 }
 
-.frame .overlap-2 {
+.frame .overlap {
   position: absolute;
   width: 723px;
   height: 30px;
@@ -182,7 +159,7 @@
   left: 275px;
 }
 
-.frame .overlap-3 {
+.frame .overlap-2 {
   position: absolute;
   width: 514px;
   height: 30px;
@@ -313,3 +290,24 @@
   background-color: #d9d9d9;
 }
 
+.frame .financial-tracker-wrapper {
+  position: absolute;
+  width: 231px;
+  height: 1387px;
+  top: -25px;
+  left: -13px;
+  background-color: #090909;
+}
+
+.frame .financial-tracker {
+  position: absolute;
+  width: 178px;
+  top: 49px;
+  left: 38px;
+  font-family: "Red Rose-Bold", Helvetica;
+  font-weight: 700;
+  color: #1426c0;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
