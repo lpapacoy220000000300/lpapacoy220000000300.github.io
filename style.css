@@ -9,7 +9,7 @@ html {
   }
   
   h1 {
-    
+    justify-content: flex-end
     padding: 50px;
     padding-top: 250px;
     padding-bottom: 50px;
