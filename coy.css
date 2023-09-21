@@ -16,32 +16,25 @@
 
 .frame .overlap {
   position: absolute;
-  width: 232px;
-  height: 1345px;
-  top: 0;
-  left: 0;
-}
-
-.frame .rectangle {
-  position: absolute;
   width: 227px;
   height: 1345px;
   top: 0;
   left: 0;
+  background-image: url(./img/rectangle-1.svg);
+  background-size: 100% 100%;
 }
 
-.frame .text-wrapper {
+.frame .financial-tracker {
   position: absolute;
-  width: 204px;
-  top: 35px;
-  left: 28px;
+  width: 178px;
+  top: 24px;
+  left: 25px;
   font-family: "Red Rose-Bold", Helvetica;
   font-weight: 700;
-  color: #193fc5;
+  color: #1426c0;
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
 }
 
 .frame .add-income {
@@ -72,7 +65,7 @@
   white-space: nowrap;
 }
 
-.frame .add-income-2 {
+.frame .text-wrapper {
   position: absolute;
   width: 276px;
   top: 282px;
@@ -89,15 +82,15 @@
 .frame .overlap-group {
   position: absolute;
   width: 421px;
-  height: 66px;
-  top: 372px;
+  height: 70px;
+  top: 368px;
   left: 268px;
 }
 
 .frame .view-transaction {
   position: absolute;
   width: 421px;
-  top: 21px;
+  top: 25px;
   left: 0;
   font-family: "Red Rose-Bold", Helvetica;
   font-weight: 700;
@@ -107,21 +100,21 @@
   line-height: normal;
 }
 
-.frame .rectangle-2 {
-  position: absolute;
-  width: 147px;
-  height: 22px;
+.frame .rectangle {
+  width: 172px;
+  height: 26px;
   top: 0;
-  left: 7px;
+  left: 5px;
+  position: absolute;
   background-color: #d9d9d9;
 }
 
-.frame .rectangle-3 {
+.frame .rectangle-2 {
+  width: 148px;
+  height: 24px;
+  top: 2px;
+  left: 245px;
   position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 0;
-  left: 252px;
   background-color: #d9d9d9;
 }
 
@@ -252,57 +245,12 @@
   white-space: nowrap;
 }
 
-.frame .rectangle-4 {
-  position: absolute;
+.frame .rectangle-3 {
   width: 147px;
   height: 22px;
   top: 258px;
   left: 689px;
-  background-color: #d9d9d9;
-}
-
-.frame .rectangle-5 {
   position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 477px;
-  left: 501px;
-  background-color: #d9d9d9;
-}
-
-.frame .rectangle-6 {
-  position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 477px;
-  left: 762px;
-  background-color: #d9d9d9;
-}
-
-.frame .rectangle-7 {
-  position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 477px;
-  left: 275px;
-  background-color: #d9d9d9;
-}
-
-.frame .rectangle-8 {
-  position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 372px;
-  left: 720px;
-  background-color: #d9d9d9;
-}
-
-.frame .rectangle-9 {
-  position: absolute;
-  width: 147px;
-  height: 22px;
-  top: 253px;
-  left: 397px;
   background-color: #d9d9d9;
 }
 
@@ -318,4 +266,49 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.frame .rectangle-4 {
+  width: 136px;
+  height: 27px;
+  top: 253px;
+  left: 403px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.frame .rectangle-5 {
+  width: 136px;
+  height: 22px;
+  top: 372px;
+  left: 731px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.frame .rectangle-6 {
+  width: 169px;
+  height: 30px;
+  top: 472px;
+  left: 276px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.frame .rectangle-7 {
+  width: 202px;
+  height: 32px;
+  top: 470px;
+  left: 493px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.frame .rectangle-8 {
+  width: 149px;
+  height: 31px;
+  top: 478px;
+  left: 768px;
+  position: absolute;
+  background-color: #d9d9d9;
 }
